@@ -1,0 +1,230 @@
+body
+{
+     font-family: "Monserrat";
+}
+
+#title
+{
+   background-color: #ff4c68;
+}
+
+.container-fluid
+{
+    padding: 3% 15% 7%;
+    
+    
+}
+
+
+.heading
+{
+   font-family: "Montserrat-Black";
+   line-height: 1.5;
+   font-size: 3.5rem;
+   font-weight: 900;
+   color: white;
+}
+
+h2
+{
+    font-family: "Monserrat-Black";
+     font-weight: bolder;
+     line-height: 1.5;
+     font-size: 3.5rem;
+     
+     
+}
+h3
+{
+    font-family: "Montserrat-black";
+    font-weight: bolder;
+    font-size: 3rem;
+    line-height: 1.5;
+    padding: 2% ;
+   
+}
+
+
+/* NAVIGATION BAR*/
+
+.navbar-brand
+{
+    font-family: "Ubantu";
+    font-size: 2.5rem;
+    font-weight: bold;
+}
+
+.navbar
+{
+   padding: 0 0 4.5rem;
+   
+}
+
+
+
+.nav-item
+{
+    padding: 0 18px;
+    
+}
+
+.nav-link
+{
+    font-size: 1.2rem;
+    font-family: "Montserrat-Light";
+}
+
+
+/* Download buttons */
+
+.download-button
+{
+    margin: 5% 3% 5% 0;
+
+}
+
+
+
+/* Tittle img */
+
+.title-img
+{
+    width: 60%;
+    transform: rotate(25deg);  
+
+}
+
+
+@media (max-width:992px)
+{
+    .title-img
+    {
+        transform:rotate(0);
+    }
+
+    #title
+    {
+        text-align: center;
+    }
+}
+
+
+
+
+/* Feature-box */
+#features
+{
+    padding: 7% 15%;
+    background-color: #fff;
+    
+    
+
+}
+
+.feature-box
+{
+   
+    text-align: center;
+    padding: 4.5%;
+}
+
+.icon
+{
+    margin-bottom: 1rem;
+    color:#ef8172 ;
+
+}
+
+
+.icon:hover
+{
+    color: #ff4c68;
+}
+
+
+/* testimonial */
+
+#testimonials
+{
+    
+     background-color: #ef8172;
+     text-align: center;
+     color: #fff;
+}
+
+.testimonial-image
+{
+    width: 10%;
+    border-radius: 100%;
+    margin: 20px;
+}
+
+.carousel-item 
+{
+    padding: 7% 15%;
+}
+
+#press
+{
+     background-color: #ef8172;
+     text-align: center;
+     padding-bottom: 20px;
+}
+
+.press-img
+{
+    width: 15%;
+    margin: 20px 20px 50px;
+}
+
+
+/* pricing */
+
+#pricing
+{
+    padding: 7% 15%;
+    text-align: center;
+}
+
+
+/* section cta  */
+
+#cta
+{
+    background-color: #ff4c68;
+    text-align: center;
+    color: #fff;
+     padding: 7% 15%;
+}
+
+
+.cta-heading
+{
+     font-family: "Monserrat-black";
+      line-height: 1.5;
+}
+
+
+/*  footer */
+
+
+#footer
+{
+    font-family: "Monserrat-black";
+    padding: 7% 15%;
+    text-align: center;
+}
+
+.social-icon
+{
+    margin: 20px 10px;
+}
+
+
+@media (max-width:484px)
+{
+    .footer{
+
+        font-size: 0.5rem;
+    }
+}
